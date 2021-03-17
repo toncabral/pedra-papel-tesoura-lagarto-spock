@@ -1,13 +1,15 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes';
 
 import GlobalStyles from './shared/styles/global';
 
 const App: React.FC = () => {
   return (
-    <>
-      <h1>Pedra, papel , tesoura, lagarto e Spock</h1>
+    <BrowserRouter>
+      <Routes />
       <GlobalStyles />
-    </>
+    </BrowserRouter>
   );
 };
 
