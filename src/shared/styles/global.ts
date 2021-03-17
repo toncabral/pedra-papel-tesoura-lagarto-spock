@@ -9,7 +9,9 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #333;
-    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    
+    background: #2c2c54;
+    color: #f7f1e3;
   }
 `;
